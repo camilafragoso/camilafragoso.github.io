@@ -1,12 +1,11 @@
 import './Shared.css';
 
-function Projects () {
+function Projects (props) {
     return(
         <div className='projects-div'>
-                <img className='project-img'></img>
-                <h4>Project Name</h4>
-                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual.
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual.
+                <img className='project-img' src={props.src}></img>
+                <h4>{props.title}</h4>
+                <p>{props.description}
                 </p>            
         </div>
     )

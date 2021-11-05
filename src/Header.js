@@ -11,7 +11,7 @@ function Header () {
                 <p className='header-description'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual.
                 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual.
                 </p>
-                <div className='header-icons'>icons</div>
+                <button className='header-button'>See Portfolio</button>
             </div>
         </div>
     )

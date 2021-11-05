@@ -31,9 +31,9 @@
 }
 
 .nav-contact-button {
-    background-color: #3f48cc;    
-    border: none;
-    color: white;
+    /*background-color: #3f48cc;   */ 
+    border-color: #0080ff;
+    /*color: white;*/
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -74,11 +74,28 @@
     width: 70%;
 }
 
-.header-icons {
+.header-button {
+    background-color: #0080ff;    
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin: 1%;
+}
+
+.home-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 1% 0%;
+}
+
+.home-proj-title{
     display: flex;
     justify-content: center;
-    align-content: space-between;
-    flex-direction: row;
 }
 
 .projects-div{
@@ -86,11 +103,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1%;
+    align-content: center;
+    margin: 2%;
     padding: 1%;
-    width: 80%;
+    width: 20%;
+    color: #0080ff;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+    transition: 0.3s;
 }
 
+.project-img {
+    width: 70%;
+    border-radius: 5%;
+}
+.arrow {
+    width: 5%;
+    
+}
 
 .cta {
     background-color: #20DDE9;
