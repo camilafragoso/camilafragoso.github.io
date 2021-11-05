@@ -12,7 +12,7 @@ function Navbar () {
                 <a>Home</a>
                 <a>Projects</a>
                 <a>About</a>
-                <a>Contact</a>
+                <button className='nav-contact-button'>Contact</button>
             </div>
         </div>
     )
